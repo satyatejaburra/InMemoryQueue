@@ -12,7 +12,7 @@ public class Record {
 
     public Record(Message message) {
         this.message = message;
-        this.ttl = 60000;
+        this.ttl = DEFAULT_TTL;
         this.timeStamp = System.currentTimeMillis();
     }
 
